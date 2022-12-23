@@ -1,0 +1,89 @@
+2022-12-13 22:05:37.735 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: 3487e9d1-93c5-4769-8c9b-27dafc0e21a1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-13 22:05:37.988 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-13 22:05:38.051 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-13 22:14:15.645 WARN  [http-nio-8001-exec-5]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 420927
+2022-12-13 22:14:15.647 WARN  [http-nio-8001-exec-5]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 519204
+2022-12-13 22:14:15.647 WARN  [http-nio-8001-exec-5]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 519222
+2022-12-13 22:14:15.648 WARN  [http-nio-8001-exec-5]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 519251
+2022-12-13 22:14:15.648 WARN  [http-nio-8001-exec-5]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 519276
+2022-12-13 22:21:58.866 WARN  [Thread-10]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-13 22:21:58.866 WARN  [Thread-17]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-13 22:21:58.867 WARN  [Thread-17]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-13 22:21:58.868 WARN  [Thread-10]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-13 22:22:08.001 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-13 22:29:34.141 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: 0b38a501-7ecd-495d-9562-e58a765aa20b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-13 22:29:34.355 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-13 22:29:34.428 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-13 22:30:10.828 WARN  [Thread-10]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-13 22:30:10.828 WARN  [Thread-17]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-13 22:30:10.830 WARN  [Thread-17]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-13 22:30:10.830 WARN  [Thread-10]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-13 22:30:19.057 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-13 22:30:24.027 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: 0914931f-5cad-4b83-a356-b32098212c0a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-13 22:30:24.263 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-13 22:30:24.335 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-13 22:31:42.993 WARN  [Thread-9]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-13 22:31:42.993 WARN  [Thread-15]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-13 22:31:42.994 WARN  [Thread-15]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-13 22:31:42.994 WARN  [Thread-9]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-13 22:31:49.324 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-13 22:31:59.577 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: 8b4bab84-c9c9-4727-9184-3a53091165c2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-13 22:31:59.876 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-13 22:31:59.948 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-13 22:33:21.048 WARN  [http-nio-8001-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 83614
+2022-12-13 22:33:21.049 WARN  [http-nio-8001-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 83649
+2022-12-13 22:33:21.050 WARN  [http-nio-8001-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 83680
+2022-12-13 22:33:21.050 WARN  [http-nio-8001-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 83711
+2022-12-13 22:33:21.051 WARN  [http-nio-8001-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 83748
+2022-12-13 22:34:55.361 WARN  [Thread-12]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-13 22:34:55.361 WARN  [Thread-18]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-13 22:34:55.362 WARN  [Thread-18]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-13 22:34:55.362 WARN  [Thread-12]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-13 22:35:04.313 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-13 22:51:51.931 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: 3a8d5d91-c884-4d2b-8f9e-f38f8d5cb874
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-13 22:51:52.156 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-13 22:51:52.230 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-13 23:18:48.220 WARN  [Thread-11]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-13 23:18:48.220 WARN  [Thread-17]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-13 23:18:48.222 WARN  [Thread-17]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-13 23:18:48.222 WARN  [Thread-11]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-13 23:18:54.948 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-13 23:19:45.084 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: 9aed7971-73e3-489a-bd50-fbc4ee1dbd8b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-13 23:19:45.304 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-13 23:19:45.374 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-13 23:25:17.043 WARN  [http-nio-8001-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 333544
+2022-12-13 23:25:17.045 WARN  [http-nio-8001-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 333565
+2022-12-13 23:25:17.045 WARN  [http-nio-8001-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 333581
+2022-12-13 23:25:17.046 WARN  [http-nio-8001-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 333599
+2022-12-13 23:25:17.047 WARN  [http-nio-8001-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 333619
+2022-12-13 23:27:07.672 WARN  [http-nio-8001-exec-4]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 75845

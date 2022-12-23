@@ -1,0 +1,30 @@
+2022-12-15 09:10:08.639 WARN  [Thread-13]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-15 09:10:08.639 WARN  [Thread-19]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-15 09:10:08.642 WARN  [Thread-19]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-15 09:10:08.642 WARN  [Thread-13]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-15 09:10:15.996 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-15 09:10:27.562 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: 41ad3d66-73c6-444d-9a1e-dce92cf1bacc
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-15 09:10:28.168 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-15 09:10:28.313 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-15 13:16:38.927 WARN  [Thread-22]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-15 13:16:38.929 WARN  [Thread-16]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-15 13:16:38.932 WARN  [Thread-22]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-15 13:16:38.933 WARN  [Thread-16]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-15 13:16:47.835 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-15 13:16:57.087 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: 20f5a1c6-562d-4e72-ac8c-7a6c68afb824
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-15 13:16:57.443 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-15 13:16:57.511 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-15 17:18:28.756 WARN  [Thread-19]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-15 17:18:28.756 WARN  [Thread-13]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-15 17:18:28.759 WARN  [Thread-19]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-15 17:18:28.760 WARN  [Thread-13]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end

@@ -1,0 +1,27 @@
+2022-12-18 17:17:20.031 INFO  [main]com.knowledge.user.UserApplication.logStartupProfileInfo:634 -No active profile set, falling back to 1 default profile: "default"
+2022-12-18 17:17:20.528 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-18 17:17:20.529 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-18 17:17:20.542 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2022-12-18 17:17:20.781 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-18 17:17:20.781 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-18 17:17:20.786 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-12-18 17:17:20.979 INFO  [main]org.springframework.cloud.context.scope.GenericScope.setSerializationId:283 -BeanFactory id=d5f5f751-e817-3112-9f16-65a573089b72
+2022-12-18 17:17:21.299 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8001 (http)
+2022-12-18 17:17:21.307 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8001"]
+2022-12-18 17:17:21.307 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2022-12-18 17:17:21.308 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-12-18 17:17:21.394 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2022-12-18 17:17:21.394 INFO  [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:292 -Root WebApplicationContext: initialization completed in 1342 ms
+2022-12-18 17:17:21.566 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2022-12-18 17:17:22.986 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:985 -{dataSource-1} inited
+2022-12-18 17:17:24.401 INFO  [main]o.s.security.web.DefaultSecurityFilterChain.<init>:55 -Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3cb195dd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6dc2279c, org.springframework.security.web.context.SecurityContextPersistenceFilter@95cecc5, org.springframework.security.web.header.HeaderWriterFilter@69d667a5, org.springframework.security.web.authentication.logout.LogoutFilter@17d816b3, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@2487e20, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b86cb18, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d2f9e3c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d7b4e04, org.springframework.security.web.session.SessionManagementFilter@3f9f8d23, org.springframework.security.web.access.ExceptionTranslationFilter@182e4365, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22ff1372]
+2022-12-18 17:17:24.558 INFO  [main]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:58 -Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-18 17:17:24.741 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8001"]
+2022-12-18 17:17:24.752 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8001 (http) with context path ''
+2022-12-18 17:17:24.795 INFO  [main]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register:75 -nacos registry, DEFAULT_GROUP coder-user 192.168.0.103:8001 register finished
+2022-12-18 17:17:24.819 INFO  [main]com.knowledge.user.UserApplication.logStarted:61 -Started UserApplication in 5.386 seconds (JVM running for 5.765)
+2022-12-18 17:17:25.342 INFO  [RMI TCP Connection(5)-192.168.0.103]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-18 17:17:25.342 INFO  [RMI TCP Connection(5)-192.168.0.103]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2022-12-18 17:17:25.344 INFO  [RMI TCP Connection(5)-192.168.0.103]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 2 ms
+2022-12-18 17:17:46.209 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:90 -De-registering from Nacos Server now...
+2022-12-18 17:17:46.249 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:110 -De-registration finished.

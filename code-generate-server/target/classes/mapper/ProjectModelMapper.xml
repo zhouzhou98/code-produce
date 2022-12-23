@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.knowledge.server.app.mapper.ProjectModelMapper">
+  <resultMap id="BaseResultMap" type="com.knowledge.server.entity.model.ProjectModel">
+    <!--@mbg.generated-->
+    <!--@Table t_project-->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="project_name" jdbcType="VARCHAR" property="projectName" />
+    <result column="project_code" jdbcType="VARCHAR" property="projectCode" />
+    <result column="project_package" jdbcType="VARCHAR" property="projectPackage" />
+    <result column="version" jdbcType="VARCHAR" property="version" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
+    <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
+    <result column="data_version" jdbcType="INTEGER" property="dataVersion" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, user_id, project_name, project_code, project_package, version, author, email, 
+    created_at, updated_at, data_version
+  </sql>
+</mapper>

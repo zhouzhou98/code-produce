@@ -1,0 +1,141 @@
+2022-12-14 08:44:13.781 WARN  [HikariPool-1 housekeeper]com.zaxxer.hikari.pool.HikariPool.run:788 -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h15m20s543ms).
+2022-12-14 09:03:18.875 WARN  [Thread-10]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-14 09:03:18.876 WARN  [Thread-17]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-14 09:03:18.877 WARN  [Thread-17]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-14 09:03:18.879 WARN  [Thread-10]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-14 09:03:18.936 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:90 -De-registering from Nacos Server now...
+2022-12-14 09:03:19.069 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:110 -De-registration finished.
+2022-12-14 09:03:26.980 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-14 09:03:27.005 INFO  [SpringApplicationShutdownHook]com.zaxxer.hikari.HikariDataSource.close:350 -HikariPool-1 - Shutdown initiated...
+2022-12-14 09:03:27.052 INFO  [SpringApplicationShutdownHook]com.zaxxer.hikari.HikariDataSource.close:352 -HikariPool-1 - Shutdown completed.
+2022-12-14 09:03:32.585 INFO  [main]com.knowledge.auth.AuthServerApplication.logStartupProfileInfo:634 -No active profile set, falling back to 1 default profile: "default"
+2022-12-14 09:03:33.500 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 09:03:33.502 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-14 09:03:33.524 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-12-14 09:03:33.756 INFO  [main]org.springframework.cloud.context.scope.GenericScope.setSerializationId:283 -BeanFactory id=4ef3392f-c41c-30c0-91e3-2153928a3d96
+2022-12-14 09:03:34.245 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8002 (http)
+2022-12-14 09:03:34.251 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8002"]
+2022-12-14 09:03:34.251 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2022-12-14 09:03:34.251 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-12-14 09:03:34.350 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2022-12-14 09:03:34.350 INFO  [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:292 -Root WebApplicationContext: initialization completed in 1753 ms
+2022-12-14 09:03:34.625 INFO  [main]o.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget:418 -For 'coder-user' URL not provided. Will try picking an instance via load-balancing.
+2022-12-14 09:03:35.348 INFO  [main]o.s.security.web.DefaultSecurityFilterChain.<init>:55 -Will secure Or [Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']] with [org.springframework.security.web.session.DisableEncodeUrlFilter@7772d266, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a21c74, org.springframework.security.web.context.SecurityContextPersistenceFilter@10a907ec, org.springframework.security.web.header.HeaderWriterFilter@799f354a, org.springframework.security.web.authentication.logout.LogoutFilter@7caf1e5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7661e474, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55c1ced9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1894fa9f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b8a144e, org.springframework.security.web.session.SessionManagementFilter@4e48462d, org.springframework.security.web.access.ExceptionTranslationFilter@2e4eda17, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b17d8ab]
+2022-12-14 09:03:35.350 INFO  [main]o.s.security.web.DefaultSecurityFilterChain.<init>:55 -Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6615237, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@eaf8427, org.springframework.security.web.context.SecurityContextPersistenceFilter@63124022, org.springframework.security.web.header.HeaderWriterFilter@6b832551, org.springframework.security.web.authentication.logout.LogoutFilter@24a04257, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@591f6f83, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b44605c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4bf4680c, org.springframework.security.web.session.SessionManagementFilter@150d6eaf, org.springframework.security.web.access.ExceptionTranslationFilter@3751acd7]
+2022-12-14 09:03:36.248 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-14 09:03:36.248 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-14 09:03:36.251 INFO  [main]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:58 -Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-14 09:03:36.546 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8002"]
+2022-12-14 09:03:36.559 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8002 (http) with context path ''
+2022-12-14 09:03:36.908 INFO  [main]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register:75 -nacos registry, DEFAULT_GROUP coder-auth 10.10.9.9:8002 register finished
+2022-12-14 09:03:36.923 INFO  [main]com.knowledge.auth.AuthServerApplication.logStarted:61 -Started AuthServerApplication in 5.585 seconds (JVM running for 5.985)
+2022-12-14 09:03:37.322 INFO  [RMI TCP Connection(4)-127.0.0.1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-14 09:03:37.323 INFO  [RMI TCP Connection(4)-127.0.0.1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2022-12-14 09:03:37.324 INFO  [RMI TCP Connection(4)-127.0.0.1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 1 ms
+2022-12-14 09:03:37.375 INFO  [RMI TCP Connection(5)-127.0.0.1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2022-12-14 09:03:37.511 INFO  [RMI TCP Connection(5)-127.0.0.1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2022-12-14 09:04:07.331 WARN  [HikariPool-1 housekeeper]com.zaxxer.hikari.pool.HikariPool.run:780 -HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s715ms), soft-evicting connections from pool.
+2022-12-14 09:04:09.556 ERROR [commons-pool-evictor]redis.clients.jedis.JedisFactory.validateObject:216 -Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at redis.clients.jedis.util.RedisInputStream.ensureFill(RedisInputStream.java:205)
+	at redis.clients.jedis.util.RedisInputStream.readByte(RedisInputStream.java:43)
+	at redis.clients.jedis.Protocol.process(Protocol.java:165)
+	at redis.clients.jedis.Protocol.read(Protocol.java:230)
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:352)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:270)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:384)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:745)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:160)
+	at org.apache.commons.pool2.impl.EvictionTimer$WeakRunner.run(EvictionTimer.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:127)
+	at redis.clients.jedis.util.RedisInputStream.ensureFill(RedisInputStream.java:199)
+	... 17 common frames omitted
+2022-12-14 09:07:25.586 WARN  [Thread-20]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-14 09:07:25.586 WARN  [Thread-13]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-14 09:07:25.587 WARN  [Thread-20]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-14 09:07:25.587 WARN  [Thread-13]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-14 09:07:25.597 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:90 -De-registering from Nacos Server now...
+2022-12-14 09:07:25.690 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:110 -De-registration finished.
+2022-12-14 09:07:33.080 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-14 09:07:33.087 INFO  [SpringApplicationShutdownHook]com.zaxxer.hikari.HikariDataSource.close:350 -HikariPool-1 - Shutdown initiated...
+2022-12-14 09:07:33.100 INFO  [SpringApplicationShutdownHook]com.zaxxer.hikari.HikariDataSource.close:352 -HikariPool-1 - Shutdown completed.
+2022-12-14 09:07:40.830 INFO  [main]com.knowledge.auth.AuthServerApplication.logStartupProfileInfo:634 -No active profile set, falling back to 1 default profile: "default"
+2022-12-14 09:07:41.261 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 09:07:41.262 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-14 09:07:41.273 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2022-12-14 09:07:41.482 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 09:07:41.482 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-14 09:07:41.486 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2022-12-14 09:07:41.696 INFO  [main]org.springframework.cloud.context.scope.GenericScope.setSerializationId:283 -BeanFactory id=fbbdf97c-54f8-3345-a801-8343ba901916
+2022-12-14 09:07:42.045 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8002 (http)
+2022-12-14 09:07:42.050 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8002"]
+2022-12-14 09:07:42.050 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2022-12-14 09:07:42.051 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-12-14 09:07:42.116 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2022-12-14 09:07:42.116 INFO  [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:292 -Root WebApplicationContext: initialization completed in 1265 ms
+2022-12-14 09:07:42.357 INFO  [main]o.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget:418 -For 'coder-user' URL not provided. Will try picking an instance via load-balancing.
+2022-12-14 09:07:43.149 INFO  [main]o.s.security.web.DefaultSecurityFilterChain.<init>:55 -Will secure Or [Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']] with [org.springframework.security.web.session.DisableEncodeUrlFilter@37c1cfa, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bcda694, org.springframework.security.web.context.SecurityContextPersistenceFilter@13e00016, org.springframework.security.web.header.HeaderWriterFilter@63124022, org.springframework.security.web.authentication.logout.LogoutFilter@401317a0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6682e6a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@177ede17, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72b2c5ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2cc75b25, org.springframework.security.web.session.SessionManagementFilter@6d6039df, org.springframework.security.web.access.ExceptionTranslationFilter@66020d69, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a4e524]
+2022-12-14 09:07:43.151 INFO  [main]o.s.security.web.DefaultSecurityFilterChain.<init>:55 -Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4628a02b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b01c689, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ec9f8d, org.springframework.security.web.header.HeaderWriterFilter@41fc0084, org.springframework.security.web.authentication.logout.LogoutFilter@448cdb47, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e0f9528, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f56424d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51424203, org.springframework.security.web.session.SessionManagementFilter@401788d5, org.springframework.security.web.access.ExceptionTranslationFilter@3a38e4dc]
+2022-12-14 09:07:43.887 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-14 09:07:43.888 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-14 09:07:43.893 INFO  [main]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:58 -Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-14 09:07:44.096 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8002"]
+2022-12-14 09:07:44.203 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8002 (http) with context path ''
+2022-12-14 09:07:44.257 INFO  [main]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register:75 -nacos registry, DEFAULT_GROUP coder-auth 10.10.9.9:8002 register finished
+2022-12-14 09:07:44.271 INFO  [main]com.knowledge.auth.AuthServerApplication.logStarted:61 -Started AuthServerApplication in 4.286 seconds (JVM running for 4.67)
+2022-12-14 09:07:44.471 INFO  [RMI TCP Connection(3)-127.0.0.1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-14 09:07:44.471 INFO  [RMI TCP Connection(3)-127.0.0.1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2022-12-14 09:07:44.473 INFO  [RMI TCP Connection(3)-127.0.0.1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 2 ms
+2022-12-14 09:07:44.545 INFO  [RMI TCP Connection(5)-127.0.0.1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2022-12-14 09:07:44.671 INFO  [RMI TCP Connection(5)-127.0.0.1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2022-12-14 12:59:26.247 WARN  [Thread-18]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-14 12:59:26.248 WARN  [Thread-11]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-14 12:59:26.251 WARN  [Thread-18]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-14 12:59:26.253 WARN  [Thread-11]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-14 12:59:26.304 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:90 -De-registering from Nacos Server now...
+2022-12-14 12:59:26.381 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:110 -De-registration finished.
+2022-12-14 12:59:35.044 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-14 12:59:35.058 INFO  [SpringApplicationShutdownHook]com.zaxxer.hikari.HikariDataSource.close:350 -HikariPool-1 - Shutdown initiated...
+2022-12-14 12:59:35.064 INFO  [SpringApplicationShutdownHook]com.zaxxer.hikari.HikariDataSource.close:352 -HikariPool-1 - Shutdown completed.
+2022-12-14 20:30:32.592 INFO  [main]com.knowledge.auth.AuthServerApplication.logStartupProfileInfo:634 -No active profile set, falling back to 1 default profile: "default"
+2022-12-14 20:30:33.057 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 20:30:33.058 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-14 20:30:33.075 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2022-12-14 20:30:33.352 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 20:30:33.352 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-14 20:30:33.356 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2022-12-14 20:30:33.566 INFO  [main]org.springframework.cloud.context.scope.GenericScope.setSerializationId:283 -BeanFactory id=fbbdf97c-54f8-3345-a801-8343ba901916
+2022-12-14 20:30:33.978 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8002 (http)
+2022-12-14 20:30:33.984 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8002"]
+2022-12-14 20:30:33.984 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2022-12-14 20:30:33.985 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-12-14 20:30:34.069 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2022-12-14 20:30:34.069 INFO  [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:292 -Root WebApplicationContext: initialization completed in 1469 ms
+2022-12-14 20:30:34.367 INFO  [main]o.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget:418 -For 'coder-user' URL not provided. Will try picking an instance via load-balancing.
+2022-12-14 20:30:35.280 INFO  [main]o.s.security.web.DefaultSecurityFilterChain.<init>:55 -Will secure Or [Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']] with [org.springframework.security.web.session.DisableEncodeUrlFilter@3a38e4dc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41fc0084, org.springframework.security.web.context.SecurityContextPersistenceFilter@1600a8a2, org.springframework.security.web.header.HeaderWriterFilter@177ede17, org.springframework.security.web.authentication.logout.LogoutFilter@60b1ff3b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1544ded3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56b1e527, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@423f8a73, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@401788d5, org.springframework.security.web.session.SessionManagementFilter@6c9a3661, org.springframework.security.web.access.ExceptionTranslationFilter@6d6039df, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64a1116a]
+2022-12-14 20:30:35.282 INFO  [main]o.s.security.web.DefaultSecurityFilterChain.<init>:55 -Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e94e331, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@539fc5d1, org.springframework.security.web.context.SecurityContextPersistenceFilter@5203c80f, org.springframework.security.web.header.HeaderWriterFilter@550c973e, org.springframework.security.web.authentication.logout.LogoutFilter@44dd0d38, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@439f2d87, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@721bf7ad, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4cae66a8, org.springframework.security.web.session.SessionManagementFilter@161d95c6, org.springframework.security.web.access.ExceptionTranslationFilter@701c223a]
+2022-12-14 20:30:35.962 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-14 20:30:35.963 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-14 20:30:35.966 INFO  [main]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:58 -Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-14 20:30:36.119 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8002"]
+2022-12-14 20:30:36.218 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8002 (http) with context path ''
+2022-12-14 20:30:36.278 INFO  [main]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register:75 -nacos registry, DEFAULT_GROUP coder-auth 192.168.0.106:8002 register finished
+2022-12-14 20:30:36.291 INFO  [main]com.knowledge.auth.AuthServerApplication.logStarted:61 -Started AuthServerApplication in 4.291 seconds (JVM running for 4.579)
+2022-12-14 20:30:36.411 INFO  [RMI TCP Connection(2)-192.168.0.106]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-14 20:30:36.411 INFO  [RMI TCP Connection(2)-192.168.0.106]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2022-12-14 20:30:36.413 INFO  [RMI TCP Connection(2)-192.168.0.106]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 2 ms
+2022-12-14 20:30:36.430 INFO  [RMI TCP Connection(3)-192.168.0.106]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2022-12-14 20:30:36.798 INFO  [RMI TCP Connection(3)-192.168.0.106]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.

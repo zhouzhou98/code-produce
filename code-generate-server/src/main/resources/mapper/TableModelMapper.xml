@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.knowledge.server.app.mapper.TableModelMapper">
+  <resultMap id="BaseResultMap" type="com.knowledge.server.entity.model.TableModel">
+    <!--@mbg.generated-->
+    <!--@Table t_table-->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="datasource_id" jdbcType="BIGINT" property="datasourceId" />
+    <result column="table_name" jdbcType="VARCHAR" property="tableName" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="comment" jdbcType="VARCHAR" property="comment" />
+    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
+    <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
+    <result column="data_version" jdbcType="INTEGER" property="dataVersion" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, datasource_id, `table_name`, user_id, `comment`,
+    created_at, updated_at,
+    data_version
+  </sql>
+</mapper>

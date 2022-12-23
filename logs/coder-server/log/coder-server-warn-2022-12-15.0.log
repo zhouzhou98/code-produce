@@ -1,0 +1,39 @@
+2022-12-15 09:10:08.604 WARN  [Thread-16]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-15 09:10:08.604 WARN  [Thread-22]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-15 09:10:08.607 WARN  [Thread-22]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-15 09:10:08.608 WARN  [Thread-16]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-15 09:10:16.758 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-15 09:10:32.735 WARN  [main]c.baomidou.mybatisplus.core.injector.DefaultSqlInjector.warn:64 -class com.knowledge.server.entity.model.TableFieldModel ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-12-15 09:10:34.207 WARN  [main]o.s.b.a.freemarker.FreeMarkerAutoConfiguration.checkTemplateLocationExists:65 -Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-12-15 09:10:34.244 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: 3aaa0f67-c885-4454-ad6f-608a804f32aa
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-15 09:10:34.461 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-15 09:10:34.462 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-15 09:11:37.993 WARN  [http-nio-8003-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://119.91.236.24:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 65542
+2022-12-15 09:11:38.009 WARN  [http-nio-8003-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://119.91.236.24:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 65941
+2022-12-15 09:11:38.024 WARN  [http-nio-8003-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://119.91.236.24:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 66951
+2022-12-15 09:11:38.039 WARN  [http-nio-8003-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://119.91.236.24:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 67191
+2022-12-15 09:11:38.084 WARN  [http-nio-8003-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://119.91.236.24:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 67625
+2022-12-15 13:16:38.864 WARN  [Thread-24]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-15 13:16:38.865 WARN  [Thread-18]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-15 13:16:38.867 WARN  [Thread-24]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-15 13:16:38.867 WARN  [Thread-18]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-15 13:16:47.843 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-15 13:16:58.974 WARN  [main]c.baomidou.mybatisplus.core.injector.DefaultSqlInjector.warn:64 -class com.knowledge.server.entity.model.TableFieldModel ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-12-15 13:17:00.261 WARN  [main]o.s.b.a.freemarker.FreeMarkerAutoConfiguration.checkTemplateLocationExists:65 -Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-12-15 13:17:00.300 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: 30f9f8c7-caf1-492c-a99d-dfbb5c72ad25
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-15 13:17:00.516 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-15 13:17:00.517 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-15 17:18:28.690 WARN  [Thread-20]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-15 17:18:28.690 WARN  [Thread-14]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-15 17:18:28.692 WARN  [Thread-20]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-15 17:18:28.693 WARN  [Thread-14]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end

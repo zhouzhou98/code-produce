@@ -1,0 +1,196 @@
+2022-12-14 09:03:18.911 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:90 -De-registering from Nacos Server now...
+2022-12-14 09:03:19.036 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:110 -De-registration finished.
+2022-12-14 09:03:34.772 INFO  [main]com.knowledge.gateway.GatewayApplication.logStartupProfileInfo:634 -No active profile set, falling back to 1 default profile: "default"
+2022-12-14 09:03:35.085 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 09:03:35.086 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-14 09:03:35.096 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2022-12-14 09:03:35.183 INFO  [main]org.springframework.cloud.context.scope.GenericScope.setSerializationId:283 -BeanFactory id=5ff4adb5-362f-3963-b7a8-2879590c7c24
+2022-12-14 09:03:35.213 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 09:03:35.214 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 09:03:35.215 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 09:03:35.874 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [After]
+2022-12-14 09:03:35.874 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Before]
+2022-12-14 09:03:35.874 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Between]
+2022-12-14 09:03:35.874 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Cookie]
+2022-12-14 09:03:35.874 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Header]
+2022-12-14 09:03:35.874 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Host]
+2022-12-14 09:03:35.875 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Method]
+2022-12-14 09:03:35.875 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Path]
+2022-12-14 09:03:35.875 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Query]
+2022-12-14 09:03:35.875 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [ReadBody]
+2022-12-14 09:03:35.875 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [RemoteAddr]
+2022-12-14 09:03:35.875 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-12-14 09:03:35.875 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Weight]
+2022-12-14 09:03:35.876 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-12-14 09:03:35.984 INFO  [main]o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration.getOrDeducePassword:87 -
+
+Using generated security password: 66557463-3535-4391-bdbf-df62c703911a
+
+2022-12-14 09:03:37.027 INFO  [main]o.springframework.boot.web.embedded.netty.NettyWebServer.start:111 -Netty started on port 8000
+2022-12-14 09:03:37.090 INFO  [main]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register:75 -nacos registry, DEFAULT_GROUP coder-gateway 10.10.9.9:8000 register finished
+2022-12-14 09:03:37.100 INFO  [main]com.knowledge.gateway.GatewayApplication.logStarted:61 -Started GatewayApplication in 3.185 seconds (JVM running for 3.681)
+2022-12-14 09:06:09.415 INFO  [reactor-http-nio-3]com.knowledge.gateway.filter.AccessTokenFilter.filter:68 -令牌已过期 eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mbyI6eyJpZCI6MTU4NjI2NzI4NjY3NDg0NTY5NiwidXNlcm5hbWUiOiJ0ZXN0In0sInVzZXJfbmFtZSI6InRlc3QiLCJzY29wZSI6WyJhbGwiXSwiZXhwIjoxNjcwOTg4MzUxLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJqdGkiOiI3NjJhNzc0OS02MWIzLTRkMDYtYTBmZC03OWEwYWY0NThmOTgiLCJjbGllbnRfaWQiOiJjb2RlLWdlbmVyYXRvciJ9.M3qsNZR4qt9_h2uPuEoLNcZ-ue1GHLdB0G_6OCRI9ywNxaghsASuHtef3rBGmw-nN_K6MmgXdixfW2X1jskVtkcUYrjWUizWE-Vc9XytWishgjTkxvFZznvN2pJcvtX8iqxTaU3ludL47-nUs3utMSybO4z6kIItWL8W0DDpT-UUgdB1v5JjsNQi51QW_G7B99DucX2m8bS8Ruf52AUmNivGU0JGRjdBSk43Yc3QCl7Drnmxz4diNjxnqmaHeNVkBCHuSI9hdwX4OOTnj7GrQRTBNnDCaTjoYogjG4R6cXINMr-e1dSyBPxJXmWmTQae5KbFjgbRX4L6pfzQC3_7Ow
+2022-12-14 09:07:25.622 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:90 -De-registering from Nacos Server now...
+2022-12-14 09:07:25.703 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:110 -De-registration finished.
+2022-12-14 09:07:43.661 INFO  [main]com.knowledge.gateway.GatewayApplication.logStartupProfileInfo:634 -No active profile set, falling back to 1 default profile: "default"
+2022-12-14 09:07:43.833 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 09:07:43.834 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-14 09:07:43.842 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2022-12-14 09:07:43.950 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 09:07:43.950 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-14 09:07:43.953 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2022-12-14 09:07:44.036 INFO  [main]org.springframework.cloud.context.scope.GenericScope.setSerializationId:283 -BeanFactory id=7919d1dd-5540-35cf-84d4-3a3ff878ae21
+2022-12-14 09:07:44.065 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 09:07:44.065 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 09:07:44.066 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 09:07:44.652 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [After]
+2022-12-14 09:07:44.653 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Before]
+2022-12-14 09:07:44.653 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Between]
+2022-12-14 09:07:44.653 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Cookie]
+2022-12-14 09:07:44.653 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Header]
+2022-12-14 09:07:44.653 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Host]
+2022-12-14 09:07:44.653 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Method]
+2022-12-14 09:07:44.653 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Path]
+2022-12-14 09:07:44.653 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Query]
+2022-12-14 09:07:44.653 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [ReadBody]
+2022-12-14 09:07:44.653 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [RemoteAddr]
+2022-12-14 09:07:44.654 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-12-14 09:07:44.654 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Weight]
+2022-12-14 09:07:44.654 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-12-14 09:07:44.727 INFO  [main]o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration.getOrDeducePassword:87 -
+
+Using generated security password: 2043e3ee-c98f-4432-a85e-306728826cc9
+
+2022-12-14 09:07:45.284 INFO  [main]o.springframework.boot.web.embedded.netty.NettyWebServer.start:111 -Netty started on port 8000
+2022-12-14 09:07:45.343 INFO  [main]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register:75 -nacos registry, DEFAULT_GROUP coder-gateway 10.10.9.9:8000 register finished
+2022-12-14 09:07:45.354 INFO  [main]com.knowledge.gateway.GatewayApplication.logStarted:61 -Started GatewayApplication in 2.171 seconds (JVM running for 2.485)
+2022-12-14 12:59:26.308 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:90 -De-registering from Nacos Server now...
+2022-12-14 12:59:26.381 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:110 -De-registration finished.
+2022-12-14 20:15:42.705 INFO  [main]com.knowledge.gateway.GatewayApplication.logStartupProfileInfo:634 -No active profile set, falling back to 1 default profile: "default"
+2022-12-14 20:15:42.884 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 20:15:42.884 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-14 20:15:42.893 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2022-12-14 20:15:42.999 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 20:15:43.000 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-14 20:15:43.001 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2022-12-14 20:15:43.091 INFO  [main]org.springframework.cloud.context.scope.GenericScope.setSerializationId:283 -BeanFactory id=d021922b-eb4e-34da-8c2a-c51eb0880cef
+2022-12-14 20:15:43.117 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 20:15:43.118 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 20:15:43.119 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 20:15:43.654 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [After]
+2022-12-14 20:15:43.654 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Before]
+2022-12-14 20:15:43.654 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Between]
+2022-12-14 20:15:43.654 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Cookie]
+2022-12-14 20:15:43.654 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Header]
+2022-12-14 20:15:43.655 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Host]
+2022-12-14 20:15:43.655 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Method]
+2022-12-14 20:15:43.655 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Path]
+2022-12-14 20:15:43.655 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Query]
+2022-12-14 20:15:43.655 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [ReadBody]
+2022-12-14 20:15:43.655 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [RemoteAddr]
+2022-12-14 20:15:43.655 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-12-14 20:15:43.655 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Weight]
+2022-12-14 20:15:43.655 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-12-14 20:15:43.679 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-14 20:22:01.330 INFO  [main]com.knowledge.gateway.GatewayApplication.logStartupProfileInfo:634 -No active profile set, falling back to 1 default profile: "default"
+2022-12-14 20:22:01.569 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 20:22:01.569 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-14 20:22:01.579 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2022-12-14 20:22:01.667 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 20:22:01.667 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-14 20:22:01.669 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2022-12-14 20:22:01.748 INFO  [main]org.springframework.cloud.context.scope.GenericScope.setSerializationId:283 -BeanFactory id=d021922b-eb4e-34da-8c2a-c51eb0880cef
+2022-12-14 20:22:01.778 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 20:22:01.779 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 20:22:01.780 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 20:22:02.308 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [After]
+2022-12-14 20:22:02.308 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Before]
+2022-12-14 20:22:02.308 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Between]
+2022-12-14 20:22:02.308 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Cookie]
+2022-12-14 20:22:02.308 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Header]
+2022-12-14 20:22:02.308 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Host]
+2022-12-14 20:22:02.308 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Method]
+2022-12-14 20:22:02.308 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Path]
+2022-12-14 20:22:02.309 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Query]
+2022-12-14 20:22:02.309 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [ReadBody]
+2022-12-14 20:22:02.309 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [RemoteAddr]
+2022-12-14 20:22:02.309 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-12-14 20:22:02.309 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Weight]
+2022-12-14 20:22:02.309 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-12-14 20:22:02.396 INFO  [main]o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration.getOrDeducePassword:87 -
+
+Using generated security password: 74dd1f96-a75b-4827-8d26-1b7c84db8853
+
+2022-12-14 20:22:02.817 INFO  [main]o.springframework.boot.web.embedded.netty.NettyWebServer.start:111 -Netty started on port 8000
+2022-12-14 20:22:02.898 INFO  [main]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register:75 -nacos registry, DEFAULT_GROUP coder-gateway 101.200.218.54:8000 register finished
+2022-12-14 20:22:02.907 INFO  [main]com.knowledge.gateway.GatewayApplication.logStarted:61 -Started GatewayApplication in 2.17 seconds (JVM running for 2.475)
+2022-12-14 20:30:28.301 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:90 -De-registering from Nacos Server now...
+2022-12-14 20:30:28.341 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:110 -De-registration finished.
+2022-12-14 20:30:39.916 INFO  [main]com.knowledge.gateway.GatewayApplication.logStartupProfileInfo:634 -No active profile set, falling back to 1 default profile: "default"
+2022-12-14 20:30:40.158 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 20:30:40.158 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-14 20:30:40.166 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2022-12-14 20:30:40.247 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 20:30:40.248 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-14 20:30:40.250 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2022-12-14 20:30:40.325 INFO  [main]org.springframework.cloud.context.scope.GenericScope.setSerializationId:283 -BeanFactory id=d021922b-eb4e-34da-8c2a-c51eb0880cef
+2022-12-14 20:30:40.352 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 20:30:40.353 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 20:30:40.353 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 20:30:40.857 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [After]
+2022-12-14 20:30:40.857 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Before]
+2022-12-14 20:30:40.857 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Between]
+2022-12-14 20:30:40.857 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Cookie]
+2022-12-14 20:30:40.857 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Header]
+2022-12-14 20:30:40.857 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Host]
+2022-12-14 20:30:40.858 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Method]
+2022-12-14 20:30:40.858 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Path]
+2022-12-14 20:30:40.858 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Query]
+2022-12-14 20:30:40.858 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [ReadBody]
+2022-12-14 20:30:40.858 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [RemoteAddr]
+2022-12-14 20:30:40.858 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-12-14 20:30:40.858 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Weight]
+2022-12-14 20:30:40.858 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-12-14 20:30:40.936 INFO  [main]o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration.getOrDeducePassword:87 -
+
+Using generated security password: 6a826669-3e8f-4676-bd38-bad8decd6318
+
+2022-12-14 20:30:41.375 INFO  [main]o.springframework.boot.web.embedded.netty.NettyWebServer.start:111 -Netty started on port 8000
+2022-12-14 20:30:41.441 INFO  [main]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register:75 -nacos registry, DEFAULT_GROUP coder-gateway 192.168.0.106:8000 register finished
+2022-12-14 20:30:41.449 INFO  [main]com.knowledge.gateway.GatewayApplication.logStarted:61 -Started GatewayApplication in 2.332 seconds (JVM running for 2.745)
+2022-12-14 20:31:49.255 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:90 -De-registering from Nacos Server now...
+2022-12-14 20:31:49.305 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:110 -De-registration finished.
+2022-12-14 20:32:00.393 INFO  [main]com.knowledge.gateway.GatewayApplication.logStartupProfileInfo:634 -No active profile set, falling back to 1 default profile: "default"
+2022-12-14 20:32:00.635 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 20:32:00.636 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-14 20:32:00.649 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2022-12-14 20:32:00.729 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 20:32:00.729 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-14 20:32:00.730 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2022-12-14 20:32:00.800 INFO  [main]org.springframework.cloud.context.scope.GenericScope.setSerializationId:283 -BeanFactory id=d021922b-eb4e-34da-8c2a-c51eb0880cef
+2022-12-14 20:32:00.828 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 20:32:00.828 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 20:32:00.829 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:376 -Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 20:32:01.324 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [After]
+2022-12-14 20:32:01.325 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Before]
+2022-12-14 20:32:01.325 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Between]
+2022-12-14 20:32:01.325 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Cookie]
+2022-12-14 20:32:01.325 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Header]
+2022-12-14 20:32:01.325 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Host]
+2022-12-14 20:32:01.326 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Method]
+2022-12-14 20:32:01.326 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Path]
+2022-12-14 20:32:01.326 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Query]
+2022-12-14 20:32:01.326 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [ReadBody]
+2022-12-14 20:32:01.326 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [RemoteAddr]
+2022-12-14 20:32:01.326 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-12-14 20:32:01.326 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [Weight]
+2022-12-14 20:32:01.326 INFO  [main]o.s.cloud.gateway.route.RouteDefinitionRouteLocator.lambda$initFactories$1:88 -Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-12-14 20:32:01.401 INFO  [main]o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration.getOrDeducePassword:87 -
+
+Using generated security password: 66de3720-b7b0-4676-a5a3-0c0f1c7f633d
+
+2022-12-14 20:32:01.813 INFO  [main]o.springframework.boot.web.embedded.netty.NettyWebServer.start:111 -Netty started on port 8000
+2022-12-14 20:32:01.881 INFO  [main]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register:75 -nacos registry, DEFAULT_GROUP coder-gateway 192.168.0.106:8000 register finished
+2022-12-14 20:32:01.891 INFO  [main]com.knowledge.gateway.GatewayApplication.logStarted:61 -Started GatewayApplication in 2.048 seconds (JVM running for 2.349)

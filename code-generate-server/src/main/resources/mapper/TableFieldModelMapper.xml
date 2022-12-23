@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.knowledge.server.app.mapper.TableFieldModelMapper">
+  <resultMap id="BaseResultMap" type="com.knowledge.server.entity.model.TableFieldModel">
+    <!--@mbg.generated-->
+    <!--@Table t_table_field-->
+    <result column="table_id" jdbcType="BIGINT" property="tableId" />
+    <result column="field_name" jdbcType="VARCHAR" property="fieldName" />
+    <result column="field_type" jdbcType="VARCHAR" property="fieldType" />
+    <result column="field_comment" jdbcType="VARCHAR" property="fieldComment" />
+    <result column="field_default" jdbcType="VARCHAR" property="fieldDefault" />
+    <result column="sort" jdbcType="INTEGER" property="sort" />
+    <result column="auto_fill" jdbcType="VARCHAR" property="autoFill" />
+    <result column="primary_pk" jdbcType="TINYINT" property="primaryPk" />
+    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
+    <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
+    <result column="data_version" jdbcType="INTEGER" property="dataVersion" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    table_id, field_name, field_type, field_comment, sort, auto_fill,
+    primary_pk, field_default,
+    created_at, updated_at, data_version
+  </sql>
+</mapper>

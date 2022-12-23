@@ -1,0 +1,65 @@
+2022-12-20 11:35:49.067 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: 774659e7-ea31-4c41-ac51-df3044e7d9a7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-20 11:35:49.306 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-20 11:35:49.373 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-20 11:38:30.959 WARN  [http-nio-8001-exec-5]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://119.91.236.24:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 128831
+2022-12-20 11:38:30.982 WARN  [http-nio-8001-exec-5]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://119.91.236.24:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 163592
+2022-12-20 11:38:31.005 WARN  [http-nio-8001-exec-5]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://119.91.236.24:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 163866
+2022-12-20 11:38:31.027 WARN  [http-nio-8001-exec-5]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://119.91.236.24:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 164157
+2022-12-20 11:38:31.049 WARN  [http-nio-8001-exec-5]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://119.91.236.24:3306/code_generator_user?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 164446
+2022-12-20 11:41:24.848 WARN  [Thread-19]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-20 11:41:24.848 WARN  [Thread-13]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-20 11:41:24.849 WARN  [Thread-19]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-20 11:41:24.850 WARN  [Thread-13]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-20 11:41:33.073 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-20 11:42:27.432 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: 847813e9-0f8a-49d2-8451-6903f67794f8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-20 11:42:27.691 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-20 11:42:27.762 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-20 12:40:36.633 WARN  [Thread-19]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-20 12:40:36.634 WARN  [Thread-13]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-20 12:40:36.635 WARN  [Thread-19]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-20 12:40:36.636 WARN  [Thread-13]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-20 12:40:46.123 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-20 23:44:40.931 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: b2823988-fbeb-46d9-8843-859e56a40f4d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-20 23:44:41.298 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-20 23:44:41.374 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-20 23:51:59.684 WARN  [Thread-14]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-20 23:51:59.684 WARN  [Thread-21]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-20 23:51:59.685 WARN  [Thread-21]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-20 23:51:59.685 WARN  [Thread-14]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-20 23:52:06.530 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-20 23:52:19.044 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: abe8b48c-5d52-4389-8071-df39eba35acc
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-20 23:52:19.342 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-20 23:52:19.437 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-20 23:58:29.788 WARN  [Thread-18]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-20 23:58:29.788 WARN  [Thread-25]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-20 23:58:29.789 WARN  [Thread-25]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-20 23:58:29.789 WARN  [Thread-18]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-20 23:58:36.795 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-20 23:58:48.169 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: ea26b95c-fa9e-449c-ae5a-2ded60259af4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-20 23:58:48.416 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-20 23:58:48.518 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.

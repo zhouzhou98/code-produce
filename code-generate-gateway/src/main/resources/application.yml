@@ -1,0 +1,89 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: coder-gateway
+  main:
+    allow-bean-definition-overriding: true
+    allow-circular-references: true
+  redis:
+    database: 0
+    host: xx
+    port: 6379
+    password: xx
+    timeout: 5000
+    jedis:
+      pool:
+        max-active: 1024  # 最大连接数（使用负值表示没有限制）
+        max-wait: -1      # 最大连接阻塞等待时间，单位毫秒，默认-1（使用负值表示没有限制）
+        max-idle: 200       # 最大空闲连接，默认8
+        min-idle: 0       # 最小空闲连接，默认0
+        time-between-eviction-runs: 30000   # 逐出运行之间的时间(毫秒)
+  cloud:
+    nacos:
+      discovery:
+        server-addr: xx:8848
+        username: xx
+        password: xx
+        ip: xx
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedHeaders: "*"
+            allowedMethods: "*"
+#            allow-credentials: true
+      discovery:
+        locator:
+          enabled: true # 启用服务发现
+          lower-case-service-id: true
+      routes:
+        - id: coder-auth
+          uri: lb://coder-auth
+          predicates:
+            - Path=/coder-auth/**
+          filters:
+            - StripPrefix=1
+            - name: RequestRateLimiter
+              args:
+                # 限制过滤器bean名称
+                key-resolver: '#{@uriKeyResolver}'
+                # 希望每个用户每秒执行多少个请求。令牌桶填充的速率
+                redis-rate-limiter.replenishRate: 2
+                # 允许用户在一秒种内完成最大请求数。令牌桶最多可以容纳的令牌数量 。如果设置为0将阻止所有请求
+                redis-rate-limiter.burstCapacity: 4
+        - id: coder-user
+          uri: lb://coder-user
+          predicates:
+            - Path=/coder-user/**
+          filters:
+            - StripPrefix=1
+            - name: RequestRateLimiter
+              args:
+                # 限制过滤器bean名称
+                key-resolver: '#{@uriKeyResolver}'
+                # 希望每个用户每秒执行多少个请求。令牌桶填充的速率
+                redis-rate-limiter.replenishRate: 2
+                # 允许用户在一秒种内完成最大请求数。令牌桶最多可以容纳的令牌数量 。如果设置为0将阻止所有请求
+                redis-rate-limiter.burstCapacity: 4
+        - id: coder-server
+          uri: lb://coder-server
+          predicates:
+            - Path=/coder-server/**
+          filters:
+            - StripPrefix=1
+            - name: RequestRateLimiter
+              args:
+                # 限制过滤器bean名称
+                key-resolver: '#{@uriKeyResolver}'
+                # 希望每个用户每秒执行多少个请求。令牌桶填充的速率
+                redis-rate-limiter.replenishRate: 2
+                # 允许用户在一秒种内完成最大请求数。令牌桶最多可以容纳的令牌数量 。如果设置为0将阻止所有请求
+                redis-rate-limiter.burstCapacity: 4
+# Feign 配置
+feign:
+  httpclient:
+    enabled: true
+  okhttp:
+    enabled: false

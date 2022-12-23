@@ -1,0 +1,235 @@
+2022-12-13 22:04:42.074 INFO  [main]com.knowledge.server.ServerApplication.logStartupProfileInfo:634 -No active profile set, falling back to 1 default profile: "default"
+2022-12-13 22:04:42.948 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-13 22:04:43.009 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-13 22:04:43.023 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-12-13 22:04:43.553 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-13 22:04:43.553 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-13 22:04:43.561 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2022-12-13 22:04:43.859 INFO  [main]org.springframework.cloud.context.scope.GenericScope.setSerializationId:283 -BeanFactory id=9732e111-eb07-3ead-a64b-e5dc9da794c3
+2022-12-13 22:04:44.318 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8003 (http)
+2022-12-13 22:04:44.326 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8003"]
+2022-12-13 22:04:44.327 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2022-12-13 22:04:44.327 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-12-13 22:04:44.416 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2022-12-13 22:04:44.417 INFO  [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:292 -Root WebApplicationContext: initialization completed in 2332 ms
+2022-12-13 22:04:44.562 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2022-12-13 22:04:44.959 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:985 -{dataSource-1} inited
+2022-12-13 22:04:45.194 WARN  [main]c.baomidou.mybatisplus.core.injector.DefaultSqlInjector.warn:64 -class com.knowledge.server.entity.model.TableFieldModel ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-12-13 22:04:45.368 INFO  [main]o.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget:418 -For 'coder-user' URL not provided. Will try picking an instance via load-balancing.
+2022-12-13 22:04:46.963 WARN  [main]o.s.b.a.freemarker.FreeMarkerAutoConfiguration.checkTemplateLocationExists:65 -Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-12-13 22:04:47.010 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: 007eba8b-1ba1-42cd-985f-d03ec0932531
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-13 22:04:47.400 INFO  [main]o.s.security.web.DefaultSecurityFilterChain.<init>:55 -Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3ef46749, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40b54762, org.springframework.security.web.context.SecurityContextPersistenceFilter@87220f1, org.springframework.security.web.header.HeaderWriterFilter@6f65a203, org.springframework.security.web.authentication.logout.LogoutFilter@1f3361e9, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@24e1e90a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@252d8df6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@229cb4d8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@362cf66, org.springframework.security.web.session.SessionManagementFilter@37fca349, org.springframework.security.web.access.ExceptionTranslationFilter@5b59c3d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c30f26d]
+2022-12-13 22:04:47.596 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-13 22:04:47.598 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-13 22:04:47.603 INFO  [main]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:58 -Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-13 22:04:47.912 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8003"]
+2022-12-13 22:04:47.933 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8003 (http) with context path ''
+2022-12-13 22:04:48.007 INFO  [main]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register:75 -nacos registry, DEFAULT_GROUP coder-server 192.168.0.107:8003 register finished
+2022-12-13 22:04:48.024 INFO  [main]com.knowledge.server.ServerApplication.logStarted:61 -Started ServerApplication in 6.693 seconds (JVM running for 7.165)
+2022-12-13 22:04:48.122 INFO  [RMI TCP Connection(6)-127.0.0.1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-13 22:04:48.122 INFO  [RMI TCP Connection(6)-127.0.0.1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2022-12-13 22:04:48.124 INFO  [RMI TCP Connection(6)-127.0.0.1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 2 ms
+2022-12-13 22:15:00.222 WARN  [http-nio-8003-exec-2]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 615264
+2022-12-13 22:15:00.223 WARN  [http-nio-8003-exec-2]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 615288
+2022-12-13 22:15:00.224 WARN  [http-nio-8003-exec-2]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 615306
+2022-12-13 22:15:00.225 WARN  [http-nio-8003-exec-2]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 615326
+2022-12-13 22:15:00.225 WARN  [http-nio-8003-exec-2]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 615347
+2022-12-13 22:21:58.809 WARN  [Thread-14]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-13 22:21:58.809 WARN  [Thread-21]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-13 22:21:58.810 WARN  [Thread-21]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-13 22:21:58.810 WARN  [Thread-14]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-13 22:21:58.822 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:90 -De-registering from Nacos Server now...
+2022-12-13 22:21:58.882 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:110 -De-registration finished.
+2022-12-13 22:22:05.440 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-13 22:22:05.456 INFO  [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:2032 -{dataSource-1} closing ...
+2022-12-13 22:22:05.459 INFO  [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:2104 -{dataSource-1} closed
+2022-12-13 22:29:29.521 INFO  [main]com.knowledge.server.ServerApplication.logStartupProfileInfo:634 -No active profile set, falling back to 1 default profile: "default"
+2022-12-13 22:29:30.087 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-13 22:29:30.088 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-13 22:29:30.098 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2022-12-13 22:29:30.386 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-13 22:29:30.386 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-13 22:29:30.393 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-12-13 22:29:30.661 INFO  [main]org.springframework.cloud.context.scope.GenericScope.setSerializationId:283 -BeanFactory id=9732e111-eb07-3ead-a64b-e5dc9da794c3
+2022-12-13 22:29:31.130 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8003 (http)
+2022-12-13 22:29:31.138 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8003"]
+2022-12-13 22:29:31.138 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2022-12-13 22:29:31.138 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-12-13 22:29:31.242 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2022-12-13 22:29:31.243 INFO  [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:292 -Root WebApplicationContext: initialization completed in 1706 ms
+2022-12-13 22:29:31.426 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2022-12-13 22:29:31.780 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:985 -{dataSource-1} inited
+2022-12-13 22:29:31.964 WARN  [main]c.baomidou.mybatisplus.core.injector.DefaultSqlInjector.warn:64 -class com.knowledge.server.entity.model.TableFieldModel ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-12-13 22:29:32.175 INFO  [main]o.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget:418 -For 'coder-user' URL not provided. Will try picking an instance via load-balancing.
+2022-12-13 22:29:33.419 WARN  [main]o.s.b.a.freemarker.FreeMarkerAutoConfiguration.checkTemplateLocationExists:65 -Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-12-13 22:29:33.459 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: 58f99f44-9ec1-40f4-8294-c88d06d07041
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-13 22:29:33.617 INFO  [main]o.s.security.web.DefaultSecurityFilterChain.<init>:55 -Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@a0e33db, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ef46749, org.springframework.security.web.context.SecurityContextPersistenceFilter@86377d5, org.springframework.security.web.header.HeaderWriterFilter@46188a89, org.springframework.security.web.authentication.logout.LogoutFilter@4627dfda, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@fa11fda, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77998ea7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@774013dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40b54762, org.springframework.security.web.session.SessionManagementFilter@68f2363, org.springframework.security.web.access.ExceptionTranslationFilter@5f5a33ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@628bd77e]
+2022-12-13 22:29:33.696 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-13 22:29:33.697 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-13 22:29:33.699 INFO  [main]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:58 -Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-13 22:29:33.922 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8003"]
+2022-12-13 22:29:33.941 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8003 (http) with context path ''
+2022-12-13 22:29:34.039 INFO  [main]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register:75 -nacos registry, DEFAULT_GROUP coder-server 192.168.0.107:8003 register finished
+2022-12-13 22:29:34.055 INFO  [main]com.knowledge.server.ServerApplication.logStarted:61 -Started ServerApplication in 5.327 seconds (JVM running for 5.785)
+2022-12-13 22:29:34.469 INFO  [RMI TCP Connection(2)-127.0.0.1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-13 22:29:34.469 INFO  [RMI TCP Connection(2)-127.0.0.1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2022-12-13 22:29:34.471 INFO  [RMI TCP Connection(2)-127.0.0.1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 2 ms
+2022-12-13 22:31:42.963 WARN  [Thread-13]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-13 22:31:42.964 WARN  [Thread-19]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-13 22:31:42.964 WARN  [Thread-19]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-13 22:31:42.964 WARN  [Thread-13]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-13 22:31:42.973 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:90 -De-registering from Nacos Server now...
+2022-12-13 22:31:43.040 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:110 -De-registration finished.
+2022-12-13 22:31:49.258 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-13 22:31:49.268 INFO  [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:2032 -{dataSource-1} closing ...
+2022-12-13 22:31:49.274 INFO  [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:2104 -{dataSource-1} closed
+2022-12-13 22:31:51.959 INFO  [main]com.knowledge.server.ServerApplication.logStartupProfileInfo:634 -No active profile set, falling back to 1 default profile: "default"
+2022-12-13 22:31:52.728 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-13 22:31:52.728 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-13 22:31:52.739 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2022-12-13 22:31:53.080 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-13 22:31:53.080 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-13 22:31:53.089 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-12-13 22:31:53.353 INFO  [main]org.springframework.cloud.context.scope.GenericScope.setSerializationId:283 -BeanFactory id=9732e111-eb07-3ead-a64b-e5dc9da794c3
+2022-12-13 22:31:53.880 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8003 (http)
+2022-12-13 22:31:53.890 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8003"]
+2022-12-13 22:31:53.891 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2022-12-13 22:31:53.891 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-12-13 22:31:53.976 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2022-12-13 22:31:53.976 INFO  [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:292 -Root WebApplicationContext: initialization completed in 1995 ms
+2022-12-13 22:31:54.138 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2022-12-13 22:31:54.590 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:985 -{dataSource-1} inited
+2022-12-13 22:31:54.761 WARN  [main]c.baomidou.mybatisplus.core.injector.DefaultSqlInjector.warn:64 -class com.knowledge.server.entity.model.TableFieldModel ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-12-13 22:31:54.979 INFO  [main]o.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget:418 -For 'coder-user' URL not provided. Will try picking an instance via load-balancing.
+2022-12-13 22:31:56.521 WARN  [main]o.s.b.a.freemarker.FreeMarkerAutoConfiguration.checkTemplateLocationExists:65 -Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-12-13 22:31:56.576 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: 2c8a9bc0-2917-46f6-888e-4436a79a68b3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-13 22:31:56.784 INFO  [main]o.s.security.web.DefaultSecurityFilterChain.<init>:55 -Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5b5b8730, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@93fb44, org.springframework.security.web.context.SecurityContextPersistenceFilter@470c4229, org.springframework.security.web.header.HeaderWriterFilter@7e691624, org.springframework.security.web.authentication.logout.LogoutFilter@40b54762, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@4c8abec7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e57b783, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12421766, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@321c2a7, org.springframework.security.web.session.SessionManagementFilter@26d7cb0d, org.springframework.security.web.access.ExceptionTranslationFilter@2aafa84f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a988299]
+2022-12-13 22:31:56.917 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-13 22:31:56.918 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-13 22:31:56.921 INFO  [main]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:58 -Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-13 22:31:57.310 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8003"]
+2022-12-13 22:31:57.348 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8003 (http) with context path ''
+2022-12-13 22:31:57.413 INFO  [main]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register:75 -nacos registry, DEFAULT_GROUP coder-server 192.168.0.107:8003 register finished
+2022-12-13 22:31:57.452 INFO  [main]com.knowledge.server.ServerApplication.logStarted:61 -Started ServerApplication in 6.709 seconds (JVM running for 7.12)
+2022-12-13 22:31:57.792 INFO  [RMI TCP Connection(6)-127.0.0.1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-13 22:31:57.792 INFO  [RMI TCP Connection(6)-127.0.0.1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2022-12-13 22:31:57.794 INFO  [RMI TCP Connection(6)-127.0.0.1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 2 ms
+2022-12-13 22:34:55.340 WARN  [Thread-20]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-13 22:34:55.341 WARN  [Thread-14]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-13 22:34:55.341 WARN  [Thread-20]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-13 22:34:55.342 WARN  [Thread-14]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-13 22:34:55.355 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:90 -De-registering from Nacos Server now...
+2022-12-13 22:34:55.476 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:110 -De-registration finished.
+2022-12-13 22:35:03.064 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-13 22:35:03.078 INFO  [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:2032 -{dataSource-1} closing ...
+2022-12-13 22:35:03.084 INFO  [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:2104 -{dataSource-1} closed
+2022-12-13 22:51:47.455 INFO  [main]com.knowledge.server.ServerApplication.logStartupProfileInfo:634 -No active profile set, falling back to 1 default profile: "default"
+2022-12-13 22:51:48.189 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-13 22:51:48.190 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-13 22:51:48.205 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2022-12-13 22:51:48.684 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-13 22:51:48.684 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-13 22:51:48.690 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-12-13 22:51:48.924 INFO  [main]org.springframework.cloud.context.scope.GenericScope.setSerializationId:283 -BeanFactory id=9732e111-eb07-3ead-a64b-e5dc9da794c3
+2022-12-13 22:51:49.280 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8003 (http)
+2022-12-13 22:51:49.288 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8003"]
+2022-12-13 22:51:49.288 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2022-12-13 22:51:49.288 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-12-13 22:51:49.374 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2022-12-13 22:51:49.374 INFO  [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:292 -Root WebApplicationContext: initialization completed in 1904 ms
+2022-12-13 22:51:49.537 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2022-12-13 22:51:49.974 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:985 -{dataSource-1} inited
+2022-12-13 22:51:50.165 WARN  [main]c.baomidou.mybatisplus.core.injector.DefaultSqlInjector.warn:64 -class com.knowledge.server.entity.model.TableFieldModel ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-12-13 22:51:50.398 INFO  [main]o.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget:418 -For 'coder-user' URL not provided. Will try picking an instance via load-balancing.
+2022-12-13 22:51:51.648 WARN  [main]o.s.b.a.freemarker.FreeMarkerAutoConfiguration.checkTemplateLocationExists:65 -Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-12-13 22:51:51.685 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: ef170987-6591-47e5-b931-7f7b90fbb719
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-13 22:51:51.841 INFO  [main]o.s.security.web.DefaultSecurityFilterChain.<init>:55 -Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@cfacf0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c8abec7, org.springframework.security.web.context.SecurityContextPersistenceFilter@4627dfda, org.springframework.security.web.header.HeaderWriterFilter@702cfbde, org.springframework.security.web.authentication.logout.LogoutFilter@24e1e90a, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@63d0e8d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@eebc0db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@484302ee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45f241df, org.springframework.security.web.session.SessionManagementFilter@355493bf, org.springframework.security.web.access.ExceptionTranslationFilter@30ef32eb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d9ff1e2]
+2022-12-13 22:51:51.940 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-13 22:51:51.941 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-13 22:51:51.944 INFO  [main]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:58 -Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-13 22:51:52.141 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8003"]
+2022-12-13 22:51:52.156 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8003 (http) with context path ''
+2022-12-13 22:51:52.234 INFO  [main]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register:75 -nacos registry, DEFAULT_GROUP coder-server 192.168.0.107:8003 register finished
+2022-12-13 22:51:52.250 INFO  [main]com.knowledge.server.ServerApplication.logStarted:61 -Started ServerApplication in 5.83 seconds (JVM running for 6.301)
+2022-12-13 22:51:52.723 INFO  [RMI TCP Connection(2)-127.0.0.1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-13 22:51:52.723 INFO  [RMI TCP Connection(2)-127.0.0.1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2022-12-13 22:51:52.725 INFO  [RMI TCP Connection(2)-127.0.0.1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 2 ms
+2022-12-13 22:55:50.788 WARN  [http-nio-8003-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 240811
+2022-12-13 22:55:50.789 WARN  [http-nio-8003-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 240844
+2022-12-13 22:55:50.790 WARN  [http-nio-8003-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 240865
+2022-12-13 22:55:50.791 WARN  [http-nio-8003-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 240889
+2022-12-13 22:55:50.791 WARN  [http-nio-8003-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 240916
+2022-12-13 23:09:27.191 WARN  [http-nio-8003-exec-3]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 816274
+2022-12-13 23:12:04.758 WARN  [http-nio-8003-exec-7]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 155796
+2022-12-13 23:18:48.190 WARN  [Thread-21]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-13 23:18:48.190 WARN  [Thread-15]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-13 23:18:48.191 WARN  [Thread-21]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-13 23:18:48.192 WARN  [Thread-15]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-13 23:18:48.206 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:90 -De-registering from Nacos Server now...
+2022-12-13 23:18:48.380 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:110 -De-registration finished.
+2022-12-13 23:18:54.948 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-13 23:18:54.964 INFO  [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:2032 -{dataSource-1} closing ...
+2022-12-13 23:18:54.972 INFO  [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:2104 -{dataSource-1} closed
+2022-12-13 23:19:39.734 INFO  [main]com.knowledge.server.ServerApplication.logStartupProfileInfo:634 -No active profile set, falling back to 1 default profile: "default"
+2022-12-13 23:19:40.329 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-13 23:19:40.330 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-13 23:19:40.344 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-12-13 23:19:40.698 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-13 23:19:40.698 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-13 23:19:40.704 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2022-12-13 23:19:40.947 INFO  [main]org.springframework.cloud.context.scope.GenericScope.setSerializationId:283 -BeanFactory id=9732e111-eb07-3ead-a64b-e5dc9da794c3
+2022-12-13 23:19:41.720 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8003 (http)
+2022-12-13 23:19:41.727 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8003"]
+2022-12-13 23:19:41.727 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2022-12-13 23:19:41.727 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-12-13 23:19:41.817 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2022-12-13 23:19:41.818 INFO  [main]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:292 -Root WebApplicationContext: initialization completed in 2069 ms
+2022-12-13 23:19:42.030 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2022-12-13 23:19:42.610 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:985 -{dataSource-1} inited
+2022-12-13 23:19:42.788 WARN  [main]c.baomidou.mybatisplus.core.injector.DefaultSqlInjector.warn:64 -class com.knowledge.server.entity.model.TableFieldModel ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2022-12-13 23:19:43.090 INFO  [main]o.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget:418 -For 'coder-user' URL not provided. Will try picking an instance via load-balancing.
+2022-12-13 23:19:44.720 WARN  [main]o.s.b.a.freemarker.FreeMarkerAutoConfiguration.checkTemplateLocationExists:65 -Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-12-13 23:19:44.761 WARN  [main]o.s.b.a.s.servlet.UserDetailsServiceAutoConfiguration.getOrDeducePassword:88 -
+
+Using generated security password: 2c06124a-aedf-467b-87e7-0254f3ffc0e8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-12-13 23:19:44.923 INFO  [main]o.s.security.web.DefaultSecurityFilterChain.<init>:55 -Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5cdda548, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f2544b0, org.springframework.security.web.context.SecurityContextPersistenceFilter@2fafa7b5, org.springframework.security.web.header.HeaderWriterFilter@2a984952, org.springframework.security.web.authentication.logout.LogoutFilter@6d80e411, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@492fa72a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@632b5c79, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4bbc02ef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5bad555b, org.springframework.security.web.session.SessionManagementFilter@fbe8fd3, org.springframework.security.web.access.ExceptionTranslationFilter@4d174189, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6807989e]
+2022-12-13 23:19:45.019 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-13 23:19:45.020 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-12-13 23:19:45.023 INFO  [main]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:58 -Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-12-13 23:19:45.230 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8003"]
+2022-12-13 23:19:45.242 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8003 (http) with context path ''
+2022-12-13 23:19:45.356 INFO  [main]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register:75 -nacos registry, DEFAULT_GROUP coder-server 192.168.0.107:8003 register finished
+2022-12-13 23:19:45.371 INFO  [main]com.knowledge.server.ServerApplication.logStarted:61 -Started ServerApplication in 6.662 seconds (JVM running for 7.109)
+2022-12-13 23:19:45.781 INFO  [RMI TCP Connection(2)-127.0.0.1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-13 23:19:45.782 INFO  [RMI TCP Connection(2)-127.0.0.1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2022-12-13 23:19:45.786 INFO  [RMI TCP Connection(2)-127.0.0.1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 4 ms
+2022-12-13 23:22:22.224 WARN  [http-nio-8003-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 76104
+2022-12-13 23:22:22.227 WARN  [http-nio-8003-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 159657
+2022-12-13 23:22:22.227 WARN  [http-nio-8003-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 159681
+2022-12-13 23:22:22.228 WARN  [http-nio-8003-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 159700
+2022-12-13 23:22:22.229 WARN  [http-nio-8003-exec-1]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 159725
+2022-12-13 23:24:44.226 WARN  [http-nio-8003-exec-3]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 141983
+2022-12-13 23:27:19.653 WARN  [http-nio-8003-exec-5]com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal:1489 -discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/code_generator?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true, version : 1.2.4, lastPacketReceivedIdleMillis : 155404

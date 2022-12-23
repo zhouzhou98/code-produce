@@ -1,0 +1,50 @@
+2022-12-22 15:14:28.534 ERROR [Druid-ConnectionPool-Create-992893965]com.alibaba.druid.pool.DruidDataSource.put:2489 -create connection holder error
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1,012 milliseconds ago. The last packet sent successfully to the server was 1,887 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:1403)
+	at com.mysql.cj.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:1388)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_isReadOnly(FilterChainImpl.java:463)
+	at com.alibaba.druid.filter.FilterAdapter.connection_isReadOnly(FilterAdapter.java:894)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_isReadOnly(FilterChainImpl.java:459)
+	at com.alibaba.druid.filter.FilterAdapter.connection_isReadOnly(FilterAdapter.java:894)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_isReadOnly(FilterChainImpl.java:459)
+	at com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl.isReadOnly(ConnectionProxyImpl.java:291)
+	at com.alibaba.druid.pool.DruidConnectionHolder.<init>(DruidConnectionHolder.java:143)
+	at com.alibaba.druid.pool.DruidConnectionHolder.<init>(DruidConnectionHolder.java:81)
+	at com.alibaba.druid.pool.DruidDataSource.put(DruidDataSource.java:2479)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2827)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1,012 milliseconds ago. The last packet sent successfully to the server was 1,887 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.clearInputStream(NativeProtocol.java:808)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:620)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:137)
+	at com.mysql.cj.NativeSession.sendCommand(NativeSession.java:279)
+	at com.mysql.cj.NativeSession.queryServerVariable(NativeSession.java:599)
+	at com.mysql.cj.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:1395)
+	... 11 common frames omitted
+Caused by: java.io.IOException: Socket is closed
+	at com.mysql.cj.protocol.AbstractSocketConnection.getMysqlInput(AbstractSocketConnection.java:72)
+	at com.mysql.cj.protocol.a.NativeProtocol.clearInputStream(NativeProtocol.java:804)
+	... 16 common frames omitted
+2022-12-22 15:14:28.537 INFO  [Druid-ConnectionPool-Create-992893965]com.alibaba.druid.pool.DruidDataSource.run:2830 -put physical connection to pool failed.
+2022-12-22 15:29:56.911 WARN  [Thread-15]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
+2022-12-22 15:29:56.911 WARN  [Thread-22]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
+2022-12-22 15:29:56.914 WARN  [Thread-22]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
+2022-12-22 15:29:56.915 WARN  [Thread-15]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
+2022-12-22 15:29:56.932 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:90 -De-registering from Nacos Server now...
+2022-12-22 15:29:56.986 INFO  [SpringApplicationShutdownHook]com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister:110 -De-registration finished.
+2022-12-22 15:30:04.588 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-12-22 15:30:04.607 INFO  [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:2032 -{dataSource-1} closing ...
+2022-12-22 15:30:04.618 INFO  [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:2104 -{dataSource-1} closed
