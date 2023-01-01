@@ -81,7 +81,7 @@ public class TableCmd {
         if (predicate.test(table)) {
             throw new BizException(ResultCodeEnum.TABLE_NOT_EXIST);
         }
-        if (table.getUser().getId().equals(userDto.getId())) {
+        if (!table.getUser().getId().equals(userDto.getId())) {
             throw new BizException(ResultCodeEnum.NO_RIGHT);
         }
         tableFieldCmd.remove(tableId);

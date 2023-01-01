@@ -2,9 +2,9 @@
 项目的创作主要来源于工作中，在工作中经常遇到数据库的表变成具体的某个类时，需要写大量无意义的代码。生成的好的代码的代码生成器需要找资源破解，框架自带的生成器又无法满足自己的想法<br>
 同时，当需要数据测试，又不想自己构造数据。借鉴了maku-generator和sqlfather，诞生了这款代码生成器。
 # 项目架构图
-![alt](img/1.png)
-![alt](img/2.png)
-#技术栈
+![image](img/1.png)
+![image](img/2.png)
+#技术栈 
 |  依赖   | 
 |  ----  |
 | Springboot-2.7.0  |
@@ -17,6 +17,7 @@
 |OSS|
 |Mybatis-Plus|
 |FastJson|
+前端项目地址：[https://github.com/kitori7/code-produce](https://github.com/kitori7/code-produce)
 Maven聚合工程划分  
 (1)code-generate-auth  
 认证模块：主要进行用户的认证功能  
@@ -32,7 +33,7 @@ Maven聚合工程划分
 (3)code-generate-gateway  
 网关模块：提供统一的访问接口  
 (4)code-generate-server  
-生成器服务：生成数据和sql
+生成器服务：生成数据和sql  
 (5)code-generate-user
 用户服务
 项目还使用了多种设计模式，诸如单例工厂、建造者模式
@@ -64,15 +65,26 @@ data： {
   "jti"
 }
 ```
-![alt](img/3.png)
-![alt](img/4.png)
-![alt](img/5.png)
+![image](img/3.png)
+![image](img/4.png)
+![image](img/5.png)
 获取到access_token,通过access_token访问服务
-
+# 应用场景  
+##字段服务  
+展示常用的字段类型
+![image](img/16.png)
+## 导入数据库
+![image](img/17.png)
+![image](img/18.png)
+## 工程服务
+![image](img/22.png)
 # 功能特色
+##项目演示图  
+![image](img/15.png)
 ## 多语言生成
 不仅可以生成Java代码，还能生成TYPESCRIPT代码，并通过oss下载出zip覆盖即可
 请求访问端口post请求：ip:8000/coder-server/api/v1/generate/code/{数据源id}/{工程id}/{类型}，其中类型可以通过输入JAVA或者TYPESCRIPT来生成不同的语言  
+![image](img/19.png)
 header
 ```java
   即 Authorization bearer token
@@ -83,14 +95,16 @@ body
    表id     
 ]
 ```
-![alt](img/6.png)
-![alt](img/7.png)
-![alt](img/8.png)
-![alt](img/9.png)
-![alt](img/10.png)
-![alt](img/11.png)
+![image](img/6.png)
+![image](img/7.png)
+![image](img/8.png)
+![image](img/9.png)
+![image](img/10.png)
+![image](img/11.png)
 ## 数据生成
 请求访问端口post请求：ip:8000/coder-server/api/v1/generate/code/data
+![image](img/20.png)
+![image](img/21.png)
 header
 ```java
   即 Authorization bearer token
@@ -112,8 +126,8 @@ header
     ]
 }
 ```
-![alt](img/12.png)
-![alt](img/13.png)
+![image](img/12.png)
+![image](img/13.png)
 ```java
 {
     "tableName": "friend_request",
@@ -203,7 +217,7 @@ header
     ]
 }
 ```
-![alt](img/14.png)
+![image](img/14.png)
 ```java
 {
     "code": 0,
