@@ -4,6 +4,8 @@
 # 项目架构图
 ![image](img/1.png)
 ![image](img/2.png)
+# 项目前端地址
+前端项目地址：[https://github.com/kitori7/code-produce](https://github.com/kitori7/code-produce)
 #技术栈 
 |  依赖   | 
 |  ----  |
@@ -17,7 +19,7 @@
 |OSS|
 |Mybatis-Plus|
 |FastJson|
-前端项目地址：[https://github.com/kitori7/code-produce](https://github.com/kitori7/code-produce)
+
 Maven聚合工程划分  
 (1)code-generate-auth  
 认证模块：主要进行用户的认证功能  
