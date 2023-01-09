@@ -1,5 +1,0 @@
-2022-12-22 15:29:56.854 WARN  [Thread-15]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
-2022-12-22 15:29:56.854 WARN  [Thread-9]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
-2022-12-22 15:29:56.856 WARN  [Thread-15]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
-2022-12-22 15:29:56.856 WARN  [Thread-9]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
-2022-12-22 15:30:06.001 WARN  [SpringApplicationShutdownHook]o.s.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod:329 -Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException

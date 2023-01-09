@@ -1,8 +1,0 @@
-2022-12-15 09:10:21.069 INFO  [background-preinit]org.hibernate.validator.internal.util.Version.<clinit>:21 -HV000001: Hibernate Validator 6.2.3.Final
-2022-12-15 09:10:22.263 INFO  [background-preinit]org.hibernate.validator.internal.util.Version.<clinit>:21 -HV000001: Hibernate Validator 6.2.3.Final
-2022-12-15 09:10:26.217 INFO  [background-preinit]org.hibernate.validator.internal.util.Version.<clinit>:21 -HV000001: Hibernate Validator 6.2.3.Final
-2022-12-15 09:10:27.773 INFO  [background-preinit]org.hibernate.validator.internal.util.Version.<clinit>:21 -HV000001: Hibernate Validator 6.2.3.Final
-2022-12-15 13:16:48.540 INFO  [background-preinit]org.hibernate.validator.internal.util.Version.<clinit>:21 -HV000001: Hibernate Validator 6.2.3.Final
-2022-12-15 13:16:51.834 INFO  [background-preinit]org.hibernate.validator.internal.util.Version.<clinit>:21 -HV000001: Hibernate Validator 6.2.3.Final
-2022-12-15 13:16:53.259 INFO  [background-preinit]org.hibernate.validator.internal.util.Version.<clinit>:21 -HV000001: Hibernate Validator 6.2.3.Final
-2022-12-15 13:16:55.592 INFO  [background-preinit]org.hibernate.validator.internal.util.Version.<clinit>:21 -HV000001: Hibernate Validator 6.2.3.Final

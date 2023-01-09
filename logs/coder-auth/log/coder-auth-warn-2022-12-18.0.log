@@ -1,6 +1,0 @@
-2022-12-18 17:17:14.706 WARN  [main]o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.logWarning:82 -Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2022-12-18 17:17:14.708 WARN  [main]o.s.c.s.oauth2.SpringCloudSecurityAutoConfiguration.<init>:38 -All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
-2022-12-18 17:17:46.097 WARN  [Thread-13]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:108 -[HttpClientBeanHolder] Start destroying common HttpClient
-2022-12-18 17:17:46.098 WARN  [Thread-20]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:145 -[NotifyCenter] Start destroying Publisher
-2022-12-18 17:17:46.098 WARN  [Thread-13]com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown:114 -[HttpClientBeanHolder] Destruction of the end
-2022-12-18 17:17:46.098 WARN  [Thread-20]com.alibaba.nacos.common.notify.NotifyCenter.shutdown:162 -[NotifyCenter] Destruction of the end
